@@ -1,0 +1,207 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navs {
+    background: linear-gradient(62deg, rgba(225, 245, 254, 1) 7%, rgba(255, 253, 253, 1) 74%);
+}
+
+.navigation ul {
+    display: flex;
+}
+
+.navigation a {
+    padding: 1rem 1rem;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: 600;
+}
+
+.navigation a:hover {
+    color: #e77939;
+}
+
+/* ---------------------------------- banner section --------------------------------------------- */
+.banner {
+    background: linear-gradient(62deg, rgba(225, 245, 254, 1) 7%, rgba(255, 253, 253, 1) 74%);
+    flex: 1;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    color: white;
+    background: linear-gradient(to bottom right, #ec407a, #e77939);
+    border: none;
+    border-radius: 9px;
+}
+
+.banner_text p span {
+    width: 100%;
+    background-color: #B3E5FC;
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+.banner_text h2 {
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.banner_text .heading {
+    width: 55%;
+    border-left: 4px solid #ec407a;
+    margin-left: 20px;
+    padding-left: 10px;
+
+
+}
+
+.banner_text .heading h1 {
+    font-size: 40px;
+    line-height: 42px;
+    margin: 10px 0 25px 0;
+}
+
+.btn-play-btn .btn1 {
+    width: 20%;
+    float: left;
+}
+
+.play_btn figure img {
+    float: left;
+    margin: 0px;
+    height: 30px;
+
+}
+
+.play_btn figcaption {
+    float: left;
+    margin: 0px;
+}
+
+.play_btn figcaption h5 {
+    margin-top: 10px;
+}
+
+.image {
+    float: left;
+}
+
+
+/* ---------------------------------- banner section --------------------------------------------- */
+/* ---------------------------------- slider section ---------------------------------------------  */
+.slide {
+    text-align: center;
+}
+
+.slider {
+    background-color: #fff;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 5px 10px #ddd9d9;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.slider img {
+    padding: 0 2rem;
+}
+
+/* ---------------------------------- slider section --------------------------------------------- */
+.works {
+    padding: 20px;
+}
+
+.work_content h2 {
+    font-size: 33px;
+    font-weight: 100;
+    width: 61%;
+}
+
+.work_text {
+    width: 70%;
+    margin: auto;
+}
+
+.work_text a {
+    color: #2fa5eb;
+    text-decoration: none;
+}
+
+.work_text h2 {
+    font-size: 30px;
+    font-weight: bold;
+    width: 65%;
+    line-height: 35px;
+    margin: 0;
+}
+
+.work-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.work-content ul li {
+    padding: 5px 10px;
+}
+
+.work-content ul li span {
+    padding-left: 10px;
+}
+
+/* < !-- ---------------------------------- stunning element section --------------------------------------------- --> */
+
+.stunning_element {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(237, 204, 197), rgba(255, 253, 253, 1));
+}
+
+.stunning_heading {
+    padding-top: 20px;
+}
+
+.stunning_element h3 {
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.stunning_element .container {
+    padding: 20px;
+}
+
+.box {
+    border-bottom: 4px solid #e77939;
+    background: linear-gradient(to top, #f8c1a1, rgba(255, 253, 253, 1));
+    padding: 40px 10px;
+}
+
+.stunning_element span {
+    padding-left: 3px;
+}
+
+.stunning_element a {
+    text-decoration: none;
+}
+
+.box:nth-child(even) {
+    border-top: 4px solid #e77939;
+    border-bottom: 0px;
+    background: linear-gradient(to bottom, #f8c1a1, rgba(255, 253, 253, 1));
+    padding: 40px 10px;
+}
+
+/* < !-- ---------------------------------- stunning element section --------------------------------------------- --> */
